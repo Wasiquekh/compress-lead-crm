@@ -116,14 +116,14 @@ export default function Home() {
                     {/* Name & Mobile Number */}
                     <div className="w-full flex flex-col md:flex-row gap-6">
                       <div className="w-full relative mb-3">
-                        <p className="text-white text-base leading-normal mb-2">
+                        <p className="text-secondBlack text-base leading-normal mb-2">
                           Your Name
                         </p>
                         <Field
                           type="text"
                           name="name"
                           placeholder="Charlene Reed"
-                          className="hover:shadow-hoverInputShadow focus:border-primary-600 w-full h-[50px] border border-primary-100 outline-none rounded-[4px] text-white placeholder-gray-400 pl-4 mb-2 "
+                          className="hover:shadow-hoverInputShadow focus:border-primary-600 w-full h-[50px] border border-primary-100 outline-none rounded-[4px] text-secondBlack placeholder-gray-400 pl-4 mb-2 "
                         />
                         <ErrorMessage
                           name="name"
